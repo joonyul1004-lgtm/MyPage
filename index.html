@@ -1,52 +1,302 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>내 첫 웹페이지</title>
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      margin-top: 100px;
-      background-color: #f5f5f5;
-    }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JoonYul Park | Portfolio</title>
 
-    h1 {
-      color: #333;
-    }
-
-    p {
-      color: #666;
-    }
-
-    button {
-      padding: 10px 20px;
-      border: none;
-      background-color: #0078ff;
-      color: white;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #005ecc;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <h1>Hello 👋</h1>
-  <p>This is my first GitHub Pages.</p>
+  <header class="hero">
+    <div class="container">
+      <h1>JoonYul Park</h1>
 
-  <button onclick="showMessage()">
-    Click
-  </button>
+      <p class="subtitle">
+        Embedded Software Engineer | AUTOSAR | ADAS | Autonomous Driving
+      </p>
 
-  <script>
-    function showMessage() {
-      alert("First Web page!");
-    }
-  </script>
+      <div class="hero-info">
+        <span>Born: Dec 27, 1984</span>
+        <span>South Korea</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+
+      <h2>About Me</h2>
+
+      <p>
+        I am an Embedded Software Engineer with more than 15 years of experience
+        in embedded systems, AUTOSAR platforms, RTOS environments, and automotive software integration.
+      </p>
+
+      <p>
+        I started my software engineering career after completing the Embedded Software
+        Specialist Program at BIT Computer in 2008. Since then, I have continuously
+        developed my technical expertise in embedded platforms, middleware,
+        device drivers, GUI systems, and automotive control software.
+      </p>
+
+      <p>
+        Currently, I am working at Hyundai Mobis as a Software Integration Engineer
+        for autonomous driving controllers and ADAS systems.
+      </p>
+
+      <p>
+        I enjoy solving difficult technical issues, collaborating with global teams,
+        and building reliable embedded software architectures.
+      </p>
+
+    </div>
+  </section>
+
+  <section class="section gray">
+    <div class="container">
+
+      <h2>Personal Profile</h2>
+
+      <div class="card">
+        <ul class="profile-list">
+          <li><strong>Name:</strong> JoonYul Park</li>
+          <li><strong>Date of Birth:</strong> December 27, 1984</li>
+          <li><strong>Major:</strong> Computer Engineering</li>
+          <li><strong>Current Company:</strong> Hyundai Mobis</li>
+          <li><strong>Current Position:</strong> Software Integration Engineer</li>
+          <li><strong>Specialties:</strong> Embedded SW, AUTOSAR, ADAS, RTOS, Middleware, Device Drivers</li>
+          <li><strong>Languages:</strong> C, C++, Embedded C</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <h2>Family</h2>
+
+      <div class="card">
+        <ul class="profile-list">
+          <li><strong>Spouse:</strong> HyungJin Park (Born Oct 12, 1984)</li>
+          <li><strong>Child:</strong> SiU Park (Born Jun 20, 2019)</li>
+          <li><strong>Child:</strong> SiHa Park (Born Jul 30, 2021)</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section gray">
+    <div class="container">
+
+      <h2>Technical Skills</h2>
+
+      <div class="skills">
+
+        <span>C</span>
+        <span>C++</span>
+        <span>Embedded Linux</span>
+        <span>RTOS</span>
+        <span>AUTOSAR</span>
+        <span>ADAS</span>
+        <span>CAN</span>
+        <span>TCP/IP</span>
+        <span>Device Driver</span>
+        <span>Middleware</span>
+        <span>SVN</span>
+        <span>CVS</span>
+        <span>GitHub</span>
+        <span>Image Processing</span>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <h2>Career History</h2>
+
+      <div class="timeline">
+
+        <div class="card">
+          <h3>Hyundai Mobis</h3>
+
+          <p class="date">2021 ~ Present</p>
+
+          <p class="job-title">
+            Software Integration Engineer – Autonomous Driving Controller
+          </p>
+
+          <p>
+            Working on software integration for autonomous driving and ADAS control systems.
+            Responsible for integration, debugging, issue analysis, and system-level validation
+            based on AUTOSAR architecture.
+          </p>
+
+          <p>
+            Experienced in ASPICE-based development processes, functional safety environments,
+            CAN log analysis, diagnostic services, and software architecture collaboration.
+          </p>
+
+          <p>
+            Participated in multiple HKMC projects and contributed to resolving complex
+            software reset and fault issues during vehicle production processes.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Autoliv Korea</h3>
+
+          <p class="date">Oct 2013 ~ 2021</p>
+
+          <p class="job-title">
+            Embedded Software Engineer / Technical Lead
+          </p>
+
+          <p>
+            Developed AUTOSAR-based embedded software for automotive safety systems.
+            Participated in multiple Hyundai/Kia vehicle projects and collaborated closely
+            with platform development teams.
+          </p>
+
+          <p>
+            Worked as Technical Lead and Software Architect for various software modules.
+            Focused on software integration, diagnostics, communication modules,
+            and system-level issue analysis.
+          </p>
+
+          <p>
+            Built strong experience in automotive software processes including
+            ASPICE, functional safety and debugging.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Herb Tech</h3>
+
+          <p class="date">2009 ~ 2013</p>
+
+          <p class="job-title">
+            Embedded Software Engineer
+          </p>
+
+          <p>
+            Started career as an embedded software developer for digital set-top boxes.
+            Developed GUI systems, middleware, multimedia features, and RTOS-based software.
+          </p>
+
+          <p>
+            Worked on hardware driver integration and middleware development for
+            STMicroelectronics chipsets in RTOS environments including eCos and Embedded Linux.
+          </p>
+
+          <p>
+            Developed RSS Reader, Weather Widget, FTP Client, multimedia applications,
+            and middleware frameworks for broadcast receivers.
+          </p>
+
+          <p>
+            Participated in international certification and pre-test activities
+            in Hong Kong, Netherlands, China, Lebanon, and New Zealand.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section gray">
+    <div class="container">
+
+      <h2>Education & Training</h2>
+
+      <div class="card">
+
+        <ul class="profile-list">
+
+          <li>
+            <strong>Hansei University</strong><br />
+            Bachelor of Computer Engineering
+          </li>
+
+          <li>
+            <strong>BIT Computer</strong><br />
+            Embedded Software Specialist Program (2008)
+          </li>
+
+          <li>
+            C / C++ Programming
+          </li>
+
+          <li>
+            Windows Networking
+          </li>
+
+          <li>
+            Embedded Linux & RTOS
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <h2>Global Experience</h2>
+
+      <div class="card">
+
+        <p>
+          Experienced in overseas business trips and technical collaboration
+          across multiple countries including:
+        </p>
+
+        <div class="skills">
+          <span>Hong Kong</span>
+          <span>Japan</span></span>
+          <span>China</span>
+          <span>Lebanon</span>
+          <span>USA</span>
+          <span>India</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section gray">
+    <div class="container">
+
+      <h2>Contact</h2>
+
+      <div class="card">
+
+        <p>Email: joonyul1004@gmail.com</p>
+        <p>GitHub: https://joonyul1004-lgtm.github.io/MyPage/</p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 JoonYul Park Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
